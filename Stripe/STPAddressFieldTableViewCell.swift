@@ -210,10 +210,10 @@ class STPAddressFieldTableViewCell: UITableViewCell, UITextFieldDelegate, UIPick
       textField.keyboardType = .default
       textField.textContentType = .name
     case .line1:
-      textField.keyboardType = .numbersAndPunctuation
+      textField.keyboardType = .default
       textField.textContentType = .streetAddressLine1
     case .line2:
-      textField.keyboardType = .numbersAndPunctuation
+      textField.keyboardType = .default
       textField.textContentType = .streetAddressLine2
     case .city:
       textField.keyboardType = .default
